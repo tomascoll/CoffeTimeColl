@@ -49,12 +49,13 @@ code {
   margin: 2rem;
   padding: 1rem;
   background-color: #d2d2d2;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .Gallery{
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }

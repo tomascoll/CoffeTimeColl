@@ -1,7 +1,6 @@
 import React from "react";
-import { useEffect } from "react";
 
-const Cafe = (props) =>{
+const ItemList = (props) =>{
     return(
         <div className="Fondo">
             <img src={props.img}/>
@@ -13,4 +12,4 @@ const Cafe = (props) =>{
     )
 }
 
-export default Cafe;
+export default ItemList;
