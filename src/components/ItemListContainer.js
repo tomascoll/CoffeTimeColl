@@ -5,56 +5,56 @@ import customFetch from './customFetch';
 const cafeBD = [
     {
         id:1,
-        image:'src\assets\italian.jpg',
+        image:'src/assets/brazil.jpg',
         name:'Cafe Italia',
         precio:'$20',
         cantidad:'567g'
     },
     {
         id:2,
-        image:'src\assets\colombia.jpg',
+        image:'src/assets/colombia.jpg',
         name:'Cafe Colombia',
         precio:'$45',
         cantidad:'2,23kg'
     },
     {
         id:3,
-        image:'src\assets\brazil.jpg',
+        image:'src/assets/brazil.jpg',
         name:'Cafe Brazil',
         precio:'$10',
         cantidad:'275g'
     },        
     {
         id:4,
-        image:'src\assets\costarica.jpg',
+        image:'src/assets/costarica.jpg',
         name:'Cafe Costa Rica',
         precio:'$11',
         cantidad:'275g'
     },
     {
         id:5,
-        image:'src\assets\keyna.jpg',
+        image:'src/assets/keyna.jpg',
         name:'Cafe Kenya',
         precio:'$12',
         cantidad:'275g'
     },
     {
         id:6,
-        image:'src\assets\parama.jpg',
+        image:'src/assets/parama.jpg',
         name:'Cafe Parama',
         precio:'$35',
         cantidad:'2,25kg'
     },
     {
         id:7,
-        image:'src\assets\verona.jpg',
+        image:'src/assets/verona.jpg',
         name:'Cafe Verona',
         precio:'$50',
         cantidad:'2,45kg'
     },
     {
         id:8,
-        image:'src\assets\tricoffe.jpg',
+        image:'src/assets/tricoffe.jpg',
         name:'Tri Coffe',
         precio:'$30',
         cantidad:'765g'

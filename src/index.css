@@ -59,3 +59,18 @@ code {
   flex-wrap: wrap;
   width: 100%;
 }
+
+.Carrito{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.numeroCarrito{
+  padding: 0 0.5rem;
+  background-color: #c8c8c8;
+  border-radius: 1rem;
+}
+
+.logoCarrito{
+  padding: 0 0.5rem;
+}
