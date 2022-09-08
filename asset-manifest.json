@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CoffeTimeColl/static/css/main.bd26a646.css",
+    "main.js": "/CoffeTimeColl/static/js/main.2b2b09c4.js",
+    "index.html": "/CoffeTimeColl/index.html",
+    "main.bd26a646.css.map": "/CoffeTimeColl/static/css/main.bd26a646.css.map",
+    "main.2b2b09c4.js.map": "/CoffeTimeColl/static/js/main.2b2b09c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd26a646.css",
+    "static/js/main.2b2b09c4.js"
+  ]
+}
