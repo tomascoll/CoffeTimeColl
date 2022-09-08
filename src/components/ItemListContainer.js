@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import ItemList from './ItemList';
+import Item from './Item';
 import customFetch from './customFetch';
-
+import ItemList from './ItemList';
 const cafeBD = [
     {
         id:1,
@@ -73,11 +73,7 @@ const ItemListContainer = () =>{
     
     return(
         <div className='Gallery'>
-            {Cafes.map(cafe =>{
-                return(
-                    <ItemList key={cafe.id} name={cafe.name} image={cafe.image} precio={cafe.precio} cantidad={cafe.cantidad}/>
-                )
-            })}
+            <ItemList items={Cafes}/>
         </div>
     )
 }
