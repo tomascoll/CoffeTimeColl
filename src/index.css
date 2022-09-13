@@ -79,3 +79,63 @@ code {
   width: 15rem;
   height: 15rem;
 }
+
+.FondoDetail{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 4rem;
+}
+
+.imgCardDetail{
+  border-radius: 1rem 0 0 1rem;
+  width: 500px;
+  height: 700px;
+}
+
+.datos{
+  border-radius: 0 1rem 1rem 0;
+  width: 500px;
+  padding: 1rem ;
+  background-color: #c8c8c8;
+}
+
+.esquemaCount{
+  background-color: #dcdcdc;
+  width: 300px;
+  padding: 1rem;
+  display: flex;
+  border-radius: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton{
+  background-color: rgb(163, 163, 163);
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border: #25252527 1px solid;
+  font-size: large;
+  border-radius: 0.5rem;
+}
+
+.numeroProducto{
+  padding: 0.5rem 1rem;
+}
+
+.agregarCarrito{
+  border: #25252527 1px solid;
+  font-weight: bold;
+  margin-left: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+}
+
+.volverButton{
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  font-size: medium;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: #25252527 1px solid;
+}
