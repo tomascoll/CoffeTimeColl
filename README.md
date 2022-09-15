@@ -11,15 +11,20 @@ https://tomascoll.github.io/CoffeTimeColl/
 ### `Tecnologias`
 
 HTML5
+
 CSS3
+
 JAVASCRIPT
+
 REACTJS
+
 NPM
 
 ### `Dependencias`
 
-React-router-Dom.
-Gh-pages.
+React-router-Dom
+
+Gh-pages
 
 ## Funcionamiento de la pagina
 
