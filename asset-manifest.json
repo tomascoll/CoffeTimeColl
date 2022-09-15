@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CoffeTimeColl/static/css/main.9dc235f0.css",
+    "main.css": "/CoffeTimeColl/static/css/main.6f6965d4.css",
     "main.js": "/CoffeTimeColl/static/js/main.60c9fba2.js",
     "index.html": "/CoffeTimeColl/index.html",
-    "main.9dc235f0.css.map": "/CoffeTimeColl/static/css/main.9dc235f0.css.map",
+    "main.6f6965d4.css.map": "/CoffeTimeColl/static/css/main.6f6965d4.css.map",
     "main.60c9fba2.js.map": "/CoffeTimeColl/static/js/main.60c9fba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc235f0.css",
+    "static/css/main.6f6965d4.css",
     "static/js/main.60c9fba2.js"
   ]
 }
