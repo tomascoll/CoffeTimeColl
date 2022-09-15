@@ -1,18 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Item = ({data}) =>{
+const Item = ({ data }) => {
+  const { name, image, id, tipo } = data;
 
-    const {name, image, precio, cantidad} = data;
-
-    return(
-        <div className="Fondo">
-            <img className="imgCard" src={image}/>
-            <h1>{name}</h1>
-            <h2>{precio}</h2>
-            <h3>{cantidad}</h3>
-            <button>Ver mas</button>
-        </div>
-    )
-}
+  return (
+    <div className="Fondo">
+      <img className="imgCard" src={image} />
+      <div className="infoCard">
+        <h1 className="nameCard">{name}</h1>
+        <p className="tipoCard">{tipo}</p>
+        <Link to={`/item/${id}`}>
+          <button className="botonCard">View More</button>
+        </Link>
+      </div>
+    </div>
+  );
+};
 
 export default Item;
