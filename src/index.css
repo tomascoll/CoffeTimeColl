@@ -66,7 +66,9 @@ a{
   flex-direction: column;
   position: relative;
   top: -404px;
-  background-color: #ededed65;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
 }
 
 .infoCard:hover{
@@ -86,7 +88,7 @@ a{
 .tipoCard{
   position: relative;
   top: 80px;
-  color: #3d3d3d;
+  color: #222222;
   font-weight: 700;
   font-size: medium;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,15 +99,15 @@ a{
   top: 80px;
   font-weight: bold;
   padding: 1rem 3rem;
-  color: #306c50;
-  background-color: #dabe35;
+  color: #d5d5d5;
+  background-color: #1e1e1e;
   border: none;
   cursor: pointer;
 }
 
 .botonCard:hover{
   transition: 1s;
-  background-color: #d1b736;
+  background-color: #383838;
 }
 
 .Gallery {

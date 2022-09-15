@@ -235,12 +235,12 @@ const ItemListContainer = () => {
     customFetch(
       2000,
       cafeBD.filter((item) => {
-        if (idCategory === undefined) return item;
+        if (idCategory === undefined)  return item;
         return item.categoria === idCategory;
       })
     )
       .then((result) => setCafes(result))
-      .catch((err) => console.log(err));
+      .catch((error) => console.log(error));
   }, [idCategory]);
 
   return (
