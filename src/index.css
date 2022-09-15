@@ -50,35 +50,55 @@ a{
 }
 
 .Fondo {
-  width: 700px;
+  width: 300px;
   height: 25rem;
   margin: 1rem;
   padding: 1rem;
-  background-color: #d2d2d2;
-  display: flex;
+  background-color: #d7d7d7;
 }
 
 .infoCard{
-  margin-left: 1rem;
+  opacity: 0;
+  width: 300px;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -404px;
+  background-color: #ededed65;
+}
+
+.infoCard:hover{
+  transition: 1s;
+  opacity: 1;
 }
 
 .nameCard{
+  text-align: center;
+  position: relative;
+  top: 80px;
   color: #252525;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
 }
 
 .tipoCard{
+  position: relative;
+  top: 80px;
   color: #3d3d3d;
+  font-weight: 700;
   font-size: medium;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .botonCard{
+  position: relative;
+  top: 80px;
   font-weight: bold;
   padding: 1rem 3rem;
-  color: #d2d2d2;
-  background-color: #c8b038;
+  color: #306c50;
+  background-color: #dabe35;
   border: none;
   cursor: pointer;
 }
@@ -91,10 +111,9 @@ a{
 .Gallery {
   margin: 0 auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .Carrito {
@@ -114,7 +133,7 @@ a{
 
 .imgCard {
   object-fit: cover;
-  width: 25rem;
+  width: 300px;
   height: 25rem;
 }
 
