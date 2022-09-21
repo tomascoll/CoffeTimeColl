@@ -21,7 +21,9 @@ const NavBar = () => {
           <li className="Li">Dark Roast</li>
         </Link>
       </ul>
-      <CartWidget />
+      <Link to='/cart'>
+        <CartWidget />
+      </Link>
     </nav>
   );
 };

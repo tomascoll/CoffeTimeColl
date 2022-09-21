@@ -1,15 +1,17 @@
-import React from "react";
 import ItemCount from "./ItemCount";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState , useContext} from "react";
+import { CartContext } from "./CartContext";
 
 const GetItem = ({ data }) => {
   const { name, image, precio, cantidad, descripcion, stock } = data;
   const [itemCount, setItemCount] = useState(0);
+  const {addItem} = useContext(CartContext)
   
-  const onAdd = (item) => {
-    alert((item) + " products added");
-    setItemCount(item);
+  const onAdd = (qty) => {
+    alert((qty) + " products added");
+    setItemCount(qty);
+    addItem(data, qty)
   };
 
   return (
@@ -19,7 +21,7 @@ const GetItem = ({ data }) => {
         <h1 className="tituloDetail">{name}</h1>
         <p className="descripcionDetail">{descripcion}</p>
         <ul className="listaDetail">
-          <li className="precioDetail">Price : {precio}</li>
+          <li className="precioDetail">Price : ${precio}</li>
           <li className="cantidadDetail">Amount : {cantidad}</li>
           <li>Stock : {stock}</li>
         </ul>
