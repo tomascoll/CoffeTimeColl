@@ -9,7 +9,7 @@ const CartWidget = () => {
     <>
       <div className="Carrito">
         {context.cartList.length > 0 ?(
-          <div className="numeroCarrito">{context.cartList.length}</div>
+          <div className="numeroCarrito">{context.totalWidget()}</div>
         ) : (
           null
         )

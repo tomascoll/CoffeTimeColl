@@ -17,6 +17,7 @@ const CartContextProvider = ({ children }) => {
           precio: item.precio,
           qtyItem: qty,
           total: item.precio * qty,
+          a : cartList.length + qty
         },
       ]);
     } else {
@@ -25,6 +26,10 @@ const CartContextProvider = ({ children }) => {
       setCartList([...cartList]);
     }
   };
+
+  const totalWidget = () =>{
+    return cartList.reduce((acc, curr) => acc + (curr.qtyItem), 0);
+  }
 
   const deleteItem = (id) => {
     let itemResult = cartList.filter((item) => item.idItem != id);
@@ -42,6 +47,7 @@ const CartContextProvider = ({ children }) => {
   return (
     <CartContext.Provider
       value={{
+        totalWidget,
         totalItemsPrice,
         addItem,
         removeList,

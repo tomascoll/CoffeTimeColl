@@ -356,7 +356,7 @@ a{
   color: #c8c8c8;
   padding: 0.5rem 3rem;
   height: 50px;
-  background-color: #242424;
+  background-color: #973535;
 }
 
 .titleVacio{
@@ -369,4 +369,26 @@ a{
   color: #313131;
   font-size: 2rem;
   font-weight: 500;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+.continue{
+  padding: 1rem;
+  border: #25252527 1px solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: #ededed;
+  background-color: #0e0e0e;
+  border-radius: 0.2rem;
+}
+
+.completeP{
+  padding: 1rem;
+  border: #25252527 1px solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: #ededed;
+  background-color: #389f6a;
+  border-radius: 0.2rem;
 }
