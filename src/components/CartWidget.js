@@ -1,10 +1,19 @@
 import logo from "../assets/cart.png";
+import { CartContext } from "./CartContext";
+import { useContext } from "react";
+
 
 const CartWidget = () => {
+  const context = useContext(CartContext)
   return (
     <>
       <div className="Carrito">
-        <div className="numeroCarrito">7</div>
+        {context.cartList.length > 0 ?(
+          <div className="numeroCarrito">{context.cartList.length}</div>
+        ) : (
+          null
+        )
+        }
         <img className="logoCarrito" src={logo} />
       </div>
     </>

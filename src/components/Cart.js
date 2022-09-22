@@ -2,26 +2,42 @@ import { useContext } from "react";
 import { CartContext } from "./CartContext";
 
 const Cart = () => {
-  const test = useContext(CartContext);
+  const context = useContext(CartContext);
 
   return (
     <>
-      {test.cartList.length > -0 &&
-        test.cartList.map((prod) => (
-          <div key={prod.idItem}>
-            <img src={prod.image} />
-            <p>{prod.name}</p>
-            <p>${prod.precio}</p>
-            <p>{prod.qtyItem}</p>
-            <p>${prod.total}</p>
-            <button onClick={() => test.deleteItem(prod.idItem)}>Delete</button>
+      {context.cartList.length > 0 &&
+        context.cartList.map((product) => (
+          <div key={product.idItem} className='fondoCarrito'>
+            <img src={product.image} className='imgCarrito'/>
+            <div className="column">
+              <h1 className='nameCarrito'>{product.name}</h1>
+              <h2 className='precioCarrito'>${product.precio}</h2>
+            </div>
+            <div className="column">
+              <h3 className="titleCarrito">Amount</h3>
+              <p className='qtyCarrito'>{product.qtyItem}</p>
+            </div>
+            <div className="column">
+              <h3 className="titleCarrito">Sub total</h3>
+              <p className='totalCarrito'>${product.total}</p>
+            </div>
+              <button className='deleteCarrito' onClick={() => context.deleteItem(product.idItem)}>
+                Delete
+              </button>
           </div>
         ))}
 
-      {test.cartList.length > 0 ? (
-        <button onClick={test.removeList}>Delete all</button>
+      {context.cartList.length > 0 ? (
+        <div className="totalPrice">
+          <h2>Total ${context.totalItemsPrice()}</h2>
+          <button className="deleteAll" onClick={context.removeList}>Delete all</button>
+        </div>
       ) : (
-        <p>Your cart is empty</p>
+        <div className="carritoVacio">
+          <h1 className="titleVacio">Your cart is empty</h1>
+          <h2 className="subVacio">Add products to fill it!</h2>
+        </div>
       )}
     </>
   );

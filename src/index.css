@@ -268,3 +268,105 @@ a{
   padding: 0.8rem 3rem;
   border-radius: 0.3rem;
 }
+
+.carritoVacio{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 250px;
+  flex-direction: column;
+}
+
+.fondoCarrito {
+  display: flex;
+  flex-direction: row;
+  background-color: #cecece;
+  color: #252525;
+  border: #25252527 1px solid;
+  width: 699px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.imgCarrito{
+  width: 150px;
+  height: 150px;
+}
+
+.nameCarrito{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+
+.precioCarrito{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;  
+}
+
+.column{
+  width: 150px;
+  margin: 0 1rem;
+}
+
+.qtyCarrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.totalCarrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.deleteCarrito{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #c8c8c8;
+  background-color: #161616;
+  border: #25252527 1px solid;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.titleCarrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalPrice{
+  width: 700px;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.deleteAll{
+  border: #25252527 1px solid;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #c8c8c8;
+  padding: 0.5rem 3rem;
+  height: 50px;
+  background-color: #242424;
+}
+
+.titleVacio{
+  font-weight: 700;
+  font-size: 3rem;
+  color: #161616;
+}
+
+.subVacio{
+  color: #313131;
+  font-size: 2rem;
+  font-weight: 500;
+}

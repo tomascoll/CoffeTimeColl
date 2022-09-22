@@ -20,7 +20,6 @@ const CartContextProvider = ({ children }) => {
         },
       ]);
     } else {
-      //al encontrarlo, entonces aumentamos el qty de ese producto
       found.qtyItem += qty;
       found.total += item.precio * qty;
       setCartList([...cartList]);
@@ -28,17 +27,22 @@ const CartContextProvider = ({ children }) => {
   };
 
   const deleteItem = (id) => {
-    let result = cartList.filter((item) => item.idItem != id);
-    setCartList(result);
+    let itemResult = cartList.filter((item) => item.idItem != id);
+    setCartList(itemResult);
   };
 
   const removeList = () => {
     setCartList([]);
   };
 
+  const totalItemsPrice = () => {
+    return cartList.reduce((acc, curr) => acc + parseFloat(curr.total), 0);
+  };
+
   return (
     <CartContext.Provider
       value={{
+        totalItemsPrice,
         addItem,
         removeList,
         deleteItem,
