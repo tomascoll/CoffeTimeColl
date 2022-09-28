@@ -34,7 +34,7 @@ const Cart = () => {
 
       {context.cartList.length > 0 ? (
         <div className="totalPrice">
-          <h2>Total ${context.totalItemsPrice()}</h2>
+          <h2>Total ${context.totalItemsPrice().toFixed(2)}</h2>
           <button className="completeP"> Complete purchase </button>
           <button className="deleteAll" onClick={context.removeList}>
             Delete all
