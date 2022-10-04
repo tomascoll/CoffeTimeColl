@@ -26,6 +26,8 @@ React-router-Dom
 
 Gh-pages
 
+Firebase
+
 ## Funcionamiento de la pagina
 
 La NavBar cuenta con un Logo, 4 secciones de cafes en grano y un Cart con el respectivo numero de productos en el.
@@ -34,4 +36,6 @@ En el Body estaran todos los cafes a la vista, cuando el usuario haga click en u
 
 Al mantener el mouse sobre unos de los cafes se nos mostrara por encima del mismo su nombre, el tipo de cafe y un boton para ver mas detalles sobre el mismo. Al apretar el boton se nos mandara a un mock con una informacion mas detallada sobre el cafe y la disponibilidad de agregarlo al carrito.
 
-Projecto realizo por Tomas Coll.
+En la seccion Cart vamos a poder ver los productos selecciones con sus respectivas caracteristicas acompañadas de un boton para eliminar el producto. Despues de la lista de productos se encontraran con un boton para eliminar todos los productos, otro para completar la compra y ver el total de la misma.
+
+Projecto realizado por Tomas Coll.
