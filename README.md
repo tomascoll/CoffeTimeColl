@@ -1,4 +1,4 @@
-![Bilby Stampede](https://imgur.com/hMHRLKi)
+![Bilby Stampede](https://github.com/tomascoll/CoffeTimeColl/blob/coffe-time/src/components/assets/preview.jpg)
 
 # Coffe Time
 
