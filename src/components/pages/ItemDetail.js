@@ -1,7 +1,8 @@
 import ItemCount from "./ItemCount";
 import { Link } from "react-router-dom";
 import { useState , useContext} from "react";
-import { CartContext } from "./CartContext";
+import { CartContext } from "../context/CartContext";
+import NotFound from "./NotFound";
 
 const ItemDetail = ({ data }) => {
   const [itemCount, setItemCount] = useState(0);
@@ -11,7 +12,13 @@ const ItemDetail = ({ data }) => {
     setItemCount(qty);
     addItem(data, qty)
   };
-
+  
+  if (data == null){
+    return (
+      <NotFound/>
+    )
+  }
+  
   return (
     <div className="FondoDetail">
       <img className="imgCardDetail" src={data.image} />

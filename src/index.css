@@ -275,7 +275,7 @@ a{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 250px;
+  top: 150px;
   flex-direction: column;
 }
 
@@ -391,4 +391,56 @@ a{
   color: #ededed;
   background-color: #389f6a;
   border-radius: 0.2rem;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsStyle{
+  margin: 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.buy{
+  padding: 1rem;
+  width: 100%;
+  border: #25252527 1px solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: #ededed;
+  background-color: #458f62;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+
+.continueShopping{
+  margin-top: 1rem;
+  padding: 1rem;
+  border: #25252527 1px solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: #ededed;
+  background-color: #3a8f67;
+  border-radius: 0.2rem;
+}
+
+.error404{
+  font-size: 5rem;
+  color: #202020;
+}
+
+.e404{
+  color: #eb3aa1;
+}
+
+.Vacio2{
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

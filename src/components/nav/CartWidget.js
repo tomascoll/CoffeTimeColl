@@ -1,5 +1,5 @@
 import logo from "../assets/cart.png";
-import { CartContext } from "./CartContext";
+import { CartContext } from "../context/CartContext";
 import { useContext } from "react";
 
 

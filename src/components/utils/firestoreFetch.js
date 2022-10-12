@@ -1,15 +1,16 @@
 import { query, where, collection, getDocs } from '@firebase/firestore';
 import { doc, getDoc } from "firebase/firestore";
 import  {db}  from './fireBaseConfig';
+import NotFound from '../pages/NotFound';
 
 export const firestoreFetch = async (idCategory) => {
-    let q;
+    let firesFetch;
     if (idCategory) {
-        q = query(collection(db, "productos"), where('categoria', '==', idCategory));
+        firesFetch = query(collection(db, "productos"), where('categoria', '==', idCategory));
     } else {
-        q = query(collection(db, "productos"));
+        firesFetch = query(collection(db, "productos"));
     }
-    const querySnapshot = await getDocs(q);
+    const querySnapshot = await getDocs(firesFetch);
     const dataFromFirestore = querySnapshot.docs.map(document => ({
         id: document.id,
         ...document.data()
@@ -27,7 +28,5 @@ export const firestoreFetchOne = async (idItem) => {
         }
     } else {
         // doc.data() will be undefined in this case
-        console.log("No such document!");
     }
-    console.log(docSnap);
 }

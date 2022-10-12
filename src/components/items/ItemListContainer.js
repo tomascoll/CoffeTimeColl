@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import { useParams } from "react-router";
-import { firestoreFetch } from "./firestoreFetch";
+import { firestoreFetch } from "../utils/firestoreFetch";
 
 const ItemListContainer = () => {
   const [Cafes, setCafes] = useState([]);
