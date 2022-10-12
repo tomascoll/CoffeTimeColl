@@ -28,6 +28,8 @@ Gh-pages
 
 Firebase
 
+Sweetalert
+
 ## Funcionamiento de la pagina
 
 La NavBar cuenta con un Logo, 4 secciones de cafes en grano y un Cart con el respectivo numero de productos en el.
