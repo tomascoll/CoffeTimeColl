@@ -1,4 +1,4 @@
-![preview img](/assetss/preview.jpg)
+![preview img](./assetss/preview.jpg)
 
 # Coffe Time
 
