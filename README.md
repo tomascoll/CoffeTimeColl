@@ -44,4 +44,4 @@ Al mantener el mouse sobre unos de los cafes se nos mostrara por encima del mism
 
 En la seccion Cart vamos a poder ver los productos selecciones con sus respectivas caracteristicas acompañadas de un boton para eliminar el producto. Despues de la lista de productos se encontraran con un boton para eliminar todos los productos, otro para completar la compra que llevara al usuario al un formulario, y ver el total de la misma.
 
-Projecto realizado por Tomas Coll.
+### Projecto realizado por Tomas Coll.
