@@ -1,5 +1,3 @@
-![preview img](./assetss/preview.jpg)
-
 # Coffe Time
 
 Coffe time es una pagina simuladora de venta sobre cafes en grano de Starbucks Coffe Company.
