@@ -6,8 +6,6 @@ Coffe time es una pagina simuladora de venta sobre cafes en grano de Starbucks C
 
 ## Quieres ver mi pagina?
 
-https://user-images.githubusercontent.com/84363715/195378437-0858bc3d-2411-4682-a470-89d085d4d00c.mp4
-
 https://tomascoll.github.io/CoffeTimeColl/
 
 ## Herramientas
@@ -35,6 +33,8 @@ Firebase
 Sweetalert ( usarlo para guiar al usuario al momento de algun fallo )
 
 ## Funcionamiento de la pagina
+
+https://user-images.githubusercontent.com/84363715/195378437-0858bc3d-2411-4682-a470-89d085d4d00c.mp4
 
 La NavBar cuenta con un Logo, 4 secciones de cafes en grano y un Cart con el respectivo numero de productos en el.
 
