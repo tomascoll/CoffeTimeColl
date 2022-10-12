@@ -1,4 +1,4 @@
-<img title="coffe time" alt="preview" src="/assets/preview.jpg">
+![preview img](preview.jpg)
 
 # Coffe Time
 
