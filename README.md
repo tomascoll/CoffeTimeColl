@@ -6,6 +6,8 @@ Coffe time es una pagina simuladora de venta sobre cafes en grano de Starbucks C
 
 ## Quieres ver mi pagina?
 
+https://user-images.githubusercontent.com/84363715/195378437-0858bc3d-2411-4682-a470-89d085d4d00c.mp4
+
 https://tomascoll.github.io/CoffeTimeColl/
 
 ## Herramientas
