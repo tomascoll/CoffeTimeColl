@@ -24,11 +24,11 @@ NPM
 
 React-router-Dom
 
-Gh-pages
+Gh-pages ( Para poder visualizar la pagina )
 
 Firebase
 
-Sweetalert
+Sweetalert ( usarlo para guiar al usuario al momento de algun fallo )
 
 ## Funcionamiento de la pagina
 
