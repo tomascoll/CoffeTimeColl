@@ -1,4 +1,4 @@
-<img title="coffe time" alt="preview" src="./assets/preview.jpg">
+<img title="coffe time" alt="preview" src="../assets/preview.jpg">
 
 # Coffe Time
 
