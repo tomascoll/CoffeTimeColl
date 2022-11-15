@@ -2,15 +2,15 @@
 
 # Coffe Time
 
-Coffe time es una pagina simuladora de venta sobre cafes en grano de Starbucks Coffe Company.
+Coffe time is a simulator site about Starbucks Coffe Company coffee beans.
 
-## Quieres ver mi pagina?
+## Do you want to see my page?
 
 https://tomascoll.github.io/CoffeTimeColl/
 
 ## Herramientas
 
-### `Tecnologias`
+### `Technologies`
 
 HTML5
 
@@ -22,26 +22,26 @@ REACTJS
 
 NPM
 
-### `Dependencias`
+### `Dependencies`
 
 React-router-Dom
 
-Gh-pages ( para poder visualizar la pagina )
+Gh-pages
 
 Firebase
 
-Sweetalert ( usarlo para guiar al usuario al momento de algun fallo )
+Sweetalert
 
-## Funcionamiento de la pagina
+## Functioning of the site
 
 https://user-images.githubusercontent.com/84363715/195378437-0858bc3d-2411-4682-a470-89d085d4d00c.mp4
 
-La NavBar cuenta con un Logo, 4 secciones de cafes en grano y un Cart con el respectivo numero de productos en el.
+The NavBar has a Logo, 4 sections of coffee beans and a Cart with the respective number of products in it.
 
-En el Body estaran todos los cafes a la vista, cuando el usuario haga click en una de las secciones del NavBar solo aparecen los cafes correspondientes a esa seccion.
+In the Body will be all the coffees in sight, when the user clicks on one of the sections of the NavBar only the coffees corresponding to that section appear.
 
-Al mantener el mouse sobre unos de los cafes se nos mostrara por encima del mismo su nombre, el tipo de cafe y un boton para ver mas detalles sobre el mismo. Al apretar el boton se nos mandara a un mock con una informacion mas detallada sobre el cafe y la disponibilidad de agregarlo al carrito.
+By keeping the mouse over one of the coffees, the name, the type of coffee and a button to see more details about it will be shown above it. Pressing the button will send us to a mock with more detailed information about the coffee and the availability to add it to the cart.
 
-En la seccion Cart vamos a poder ver los productos selecciones con sus respectivas caracteristicas acompañadas de un boton para eliminar el producto. Despues de la lista de productos se encontraran con un boton para eliminar todos los productos, otro para completar la compra que llevara al usuario a un formulario, y ver el total de la misma.
+In the Cart section we will be able to see the selected products with their respective characteristics along with a button to delete the product. After the list of products you will find a button to delete all the products, another one to complete the purchase that will take the user to a form, and see the total of the purchase.
 
-### Projecto realizado por Tomas Coll.
+### Project by Tomas Coll.
