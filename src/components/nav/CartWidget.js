@@ -7,7 +7,7 @@ const CartWidget = () => {
   const context = useContext(CartContext)
   return (
     <>
-      <div className="Carrito">
+      <div className="flex bg-slate-100 rounded-lg p-1">
         {context.cartList.length > 0 ?(
           <div className="numeroCarrito">{context.totalWidget()}</div>
         ) : (

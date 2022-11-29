@@ -14,7 +14,7 @@ const ItemListContainer = () => {
   }, [idCategory]);
 
   return (
-    <div className="Gallery">
+    <div className="max-w-[1000px] m-auto p-2 flex flex-wrap">
       <ItemList items={Cafes} />
     </div>
   );

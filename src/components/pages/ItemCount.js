@@ -21,20 +21,20 @@ const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
 
   return (
     <div>
-      <div className="esquemaCount">
-        <button className="boton" onClick={handleClickMore}>
+      <div className="flex justify-around p-5 max-w-[630px] m-auto">
+        <button className="w-10 h-10 bg-zinc-700 text-zinc-100  rounded-lg" onClick={handleClickMore}>
           +
         </button>
-        <div className="numeroProducto">{contador}</div>
-        <button className="boton" onClick={handleClickLess}>
+        <div className="py-2 text-xl">{contador}</div>
+        <button className="w-10 h-10 bg-zinc-700 text-zinc-100  rounded-lg" onClick={handleClickLess}>
           -
         </button>
         {stock && contador ? (
-          <button className="agregarCarrito" onClick={()=> onAdd(contador)}>
+          <button className="bg-zinc-700 w-20 h-10 text-zinc-200 font-semibold rounded-lg" onClick={()=> onAdd(contador)}>
             Add
           </button>
         ) : (
-          <button className="agregarCarritoDisabled" disabled>
+          <button className="bg-zinc-200 w-28 h-10 font-semibold rounded-lg" disabled>
             Add
           </button>
         )}

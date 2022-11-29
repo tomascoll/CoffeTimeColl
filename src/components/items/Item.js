@@ -5,13 +5,13 @@ const Item = ({ data }) => {
   const { name, image, id, tipo } = data;
 
   return (
-    <div className="Fondo">
-      <img className="imgCard" src={image} />
+    <div className="max-w-[300px] m-auto p-2">
+      <img className="object-cover" src={image} />
       <div className="infoCard">
-        <h1 className="nameCard">{name}</h1>
-        <p className="tipoCard">{tipo}</p>
+        <h1 className="font-bold text-lg text-zinc-700">{name}</h1>
+        <p className="text-zinc-600">{tipo}</p>
         <Link to={`/item/${id}`}>
-          <button className="botonCard">View More</button>
+          <button className="p-2 bg-emerald-900 font-medium text-stone-200 my-2">View More</button>
         </Link>
       </div>
     </div>
