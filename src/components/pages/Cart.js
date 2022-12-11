@@ -7,7 +7,7 @@ const Cart = () => {
 
   return (
     <>
-    <div className="mb-[292px] my-20">
+    <div className="mb-[228px] my-36">
       {context.cartList.length > 0 &&
         context.cartList.map((product) => (
           <div key={product.idItem} className="m-auto max-w-[500px] h-max flex flex-col p-4 sm:flex-row sm:max-w-[800px]">
