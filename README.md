@@ -20,6 +20,8 @@ JAVASCRIPT
 
 REACTJS
 
+TAILWIND CSS
+
 NPM
 
 ### `Dependencies`
